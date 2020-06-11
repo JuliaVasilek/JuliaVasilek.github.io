@@ -1,0 +1,403 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    
+/*////////////////////////////////////////////////////////////
+//                                                          //
+//                          Index                           //
+//                                                          //
+////////////////////////////////////////////////////////////*/
+    
+    .slider {
+        height: 570px;
+        background-image: url(img/slider-img-phone.jpg);
+    }
+    
+    .header {
+        margin-top: 23px;
+    }
+    
+    .logo_img {
+        width: 80px;
+        margin-left: -65px;
+    }
+    
+    .menu {
+        margin-right: 20px;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .menu_link, .menu_link_active {
+        font-size: 11px;
+    }
+    
+    .menu_link_search {
+        width: 20px;
+    }
+    
+    .slider_text {
+        margin: 0 30px;
+    }
+    
+    .text_up {
+        font-size: 10px;
+    }
+
+    .text_h2 {
+        font-size: 40px;
+        letter-spacing: -3px;
+        margin-bottom: -15px;
+    }
+    
+    .text_under {
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        width: 170px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .circle {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+
+    .circle_active {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .product_list {
+        margin-top: -43px;
+        padding: 0;
+    }
+    
+    .product_list_hat {
+        margin-top: 100px;
+    }
+
+    .hat_link {
+        font-size: 25px;
+        margin-right: 40px;
+    }
+    
+    .product_list_hat .hat_link {
+        margin-left: 20px; 
+    }
+    
+    .explore_all {
+        font-size: 12px;
+    }
+    
+    .explore_all:active {
+        padding: 0 15px;
+    }
+    
+    .medium_products {
+        min-height: 640px;
+        width: 100%;
+    }
+
+    .m_product {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        max-height: 960px;
+        margin-bottom: -203px;
+    }
+
+    .m_product_left {
+        background-image: url(img/medium_chair_phone.jpg);
+    }
+
+    .m_product_right {
+        background-image: url(img/medium_wooden_chair_phone.jpg);
+    }
+    
+    .m_product_left, .m_product_right {
+        max-width: 480px;
+        max-height: 480px;
+        width: auto;
+    }
+
+    .m_text {
+        width: 378px;
+        padding-left: 90px;
+    }
+    
+    .trending_products {
+        padding: 0;
+        margin-top: -70px;
+    }
+
+    .hat_heading {
+        font-size: 25px;
+        line-height: 34px;
+        margin-left: 30px;
+    }
+
+    .six_products {
+        margin-top: 20px;
+        max-width: 480px;
+        min-width: 320px;
+    }
+
+    .one_of_six_product {
+        margin-left: -1px;
+        margin-right: 0;
+        overflow:hidden;
+    }
+    
+    .second_slider {
+        margin-top: 0;
+        height: 570px;
+        background-image: url(img/second_slider_image_phone.jpg);
+    }
+
+    .second_slider_inner {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        float: left;
+    }
+
+    .second_slider .second_slider_inner .slider_text  {
+        margin-top: 170px;
+    }
+
+    .second_pagination_inner {
+        width: 50%;
+    }
+    
+    .five_products {
+        max-width: 100%;
+        min-height: 810px;
+        padding-top: 15px;
+    } 
+
+    .five_products_inner {
+        margin: 0 auto;
+        max-width: 480px;
+    }
+
+    .one_of_five_product {
+        padding-left: 0;
+        display: flex;
+        max-width: 480px;
+        max-height: 480px;
+        background-image: url(img/pillow1of5-phone.jpg);
+        margin-bottom: 30px;
+        margin-left: -58px;
+    }
+
+    .four_of_five_products {
+        max-width: 480px;
+        height: 1204px;
+        display: flex;
+        justify-content: center;        
+    }
+
+    .one_of_four {
+        width: 270px;
+        height: 270px;
+        display: flex;
+    }
+
+    .one_of_four:nth-child(odd) {
+        margin-right: 0;
+    }
+
+    .social {
+        width: 100%;
+        height: 517px;
+    }
+    
+    .social_background {
+        width: 100%;
+        height: 517px;
+        background-image: url(img/social_img_phone.jpg);
+        filter: blur(7px);
+        z-index: 99;
+        position: absolute;
+        margin-left: -105px;
+    }
+  
+    .social_text {
+        position: relative;
+        z-index: 100;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        max-width: 480px;
+        margin-left: -60px;
+    }
+
+    .text_up_3 {
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #6c6c6c;
+    }
+
+    .text_under_2 {
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 24px;
+        margin: 15px 0 40px 0;
+    }
+
+    .footer {
+        max-width: 480px;
+        margin: 0 auto;
+        padding-top: 100px;
+        min-height: 826px;
+    }
+    
+    .footer_inner {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer_top {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footer_top_left, .footer_top_middle, .footer_top_right {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+
+    .textbox{
+        height:48px;
+        width:200px;
+        margin-left: -10px;
+    }
+
+    .send_btn {
+        display: inline-block;
+        position: relative;
+        margin-left: 160px;
+        margin-top: 40px;
+        opacity: .8;
+    }
+
+    .footer_top_left, .footer_top_middle, .footer_top_right {
+        margin-bottom: 30px;
+    }
+
+    .footer_text {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        color: #212121;
+    }
+
+    .middle_text {
+        font-size: 12px;
+    }
+
+    .footer_bottom_text {
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
+    
+/*////////////////////////////////////////////////////////////
+//                                                          //
+//                    Interior Product                      //
+//                                                          //
+////////////////////////////////////////////////////////////*/
+    
+    .top .header {
+        padding-top: 23px;
+    }
+    
+    .top_title {
+        font-size: 27px;
+        font-weight: 300;
+        line-height: 30px;
+        margin: auto 22px;
+        bottom: 30px;
+    }
+    
+    .option_list_titles {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        padding-left: 35px;
+    }
+
+
+/*////////////////////////////////////////////////////////////
+//                                                          //
+//                 Interior Product Details                 //
+//                                                          //
+////////////////////////////////////////////////////////////*/
+
+    .full_product {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .product_pictures {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .main_picture_img {
+        width: 100%;
+    }
+    
+    .describtion_btn {
+        width: 70%;
+        height: 50px;
+    }
+    
+    .describtion_text {
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: center;
+    }
+    
+    .related_products {
+        margin-top: 100px;
+        margin-bottom: 120px;
+    }
+    
+    .three_products {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .one_of_three_img {
+        width: 100%;
+    }
+    
+    /*////////////////////////////////////////////////////////////
+//                                                          //
+//                         Contacts                         //
+//                                                          //
+////////////////////////////////////////////////////////////*/
+    
+    .contacts_inner {
+        flex-direction: column;
+    }
+    
+    .contacts_block {
+        padding: 0 10px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
